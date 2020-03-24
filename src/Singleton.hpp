@@ -5,7 +5,7 @@ class Singleton
 {
 protected:
 	Singleton(){}
-	virutal ~Singleton(){};
+	virtual ~Singleton(){}
 
 private:
 	Singleton(const Singleton&) = delete;
